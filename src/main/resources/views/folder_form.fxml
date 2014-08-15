@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import activefolders.views.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="280.0"
+         prefWidth="400.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <FolderConf fx:id="folderConf" layoutX="10" layoutY="10"/>
+        <Button fx:id="add" disable="true" layoutX="286.0" layoutY="240.0" mnemonicParsing="false"
+                onAction="#returnFolder" text="Add Folder"/>
+        <Button fx:id="cancel" cancelButton="true" layoutX="164.0" layoutY="240.0" mnemonicParsing="false"
+                onAction="#cancel" text="Cancel"/>
+    </children>
+</fx:root>
